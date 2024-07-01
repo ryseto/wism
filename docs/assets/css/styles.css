@@ -109,3 +109,25 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
     background-color: #005bb5;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+
+    .container {
+        padding: 1em;
+        margin: 1em auto;
+    }
+
+    footer {
+        position: static;
+        margin-top: 2em;
+    }
+}
