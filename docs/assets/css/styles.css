@@ -124,7 +124,8 @@ form button[type="submit"]:hover {
 
     .container {
         padding: 1em;
-        margin: 1em 1em 1em auto; /* 左側のマージンを追加 */
+        margin: 1em 0; /* 上下のマージンのみを追加 */
+        margin-left: 1em; /* 左側のマージンを追加 */
     }
 
     footer {
